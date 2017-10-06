@@ -39,6 +39,8 @@ public class Student {
         return sex;
     }
 
+
+	// 业务逻辑：性别如果非男非女，设置为错
     public void setSex(String sex) {
         if(sex.equals("男") || sex.equals("女"))
             this.sex = sex;
@@ -57,7 +59,13 @@ public class Student {
             this.age = age;
     }
 
+    /**
+     * 方法三中获取的专业对象，获取前先判断有没有实例化，先实例化再返回
+     * @return
+     */
     public Subject getSubject() {
+        if(this.subject == null)
+            this.subject = new Subject();
         return subject;
     }
 
