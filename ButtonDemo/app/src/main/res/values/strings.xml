@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ButtonDemo</string>
+    <string name="button1_name">ONE</string>
+    <string name="button2_name">TWO</string>
+    <string name="button3_name">THREE</string>
+    <string name="button4_name">FOUR</string>
+    <string name="all_button">all_button</string>
+</resources>
