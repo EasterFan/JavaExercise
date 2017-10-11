@@ -23,3 +23,14 @@ hs_err_pid*
 
 .idea
 *.iml
+
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild

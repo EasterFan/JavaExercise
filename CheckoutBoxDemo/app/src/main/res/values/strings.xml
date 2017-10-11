@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Easter_ui</string>
+    <string name="button">Button</string>
+    <string name="editext">Input your name</string>
+    <string name="hint">请输入密码，最多6个数字</string>
+    <string name="checkbox1">东篱</string>
+    <string name="checkbox2">北国</string>
+    <string name="checkbox3">南疆</string>
+    <string name="checkbox4">西风</string>
+    <string name="btn_all">全选</string>
+    <string name="btn_none">取消全选</string>
+    <string name="btn_getResult">获取内容</string>
+    <string name="showResult">显示结果</string>
+</resources>
