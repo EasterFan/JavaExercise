@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProgressBar</string>
+    <string name="defaultbar">默认进度条</string>
+    <string name="biggerbar">水平进度条</string>
+    <string name="btn01">增加第一进度</string>
+    <string name="btn02">增加第二进度</string>
+</resources>
