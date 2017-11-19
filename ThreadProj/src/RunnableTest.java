@@ -4,8 +4,6 @@
 
 
 class PrintRunnable implements Runnable{
-
-    
     @Override
     public void run() {
         int i = 0;
