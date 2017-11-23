@@ -19,7 +19,9 @@ public class CopyPic {
             int n = 0;
             byte[] bytes = new byte[1024];
             while ((n = fis.read(bytes)) != -1){
-                fos.write(bytes);
+//                fos.write(bytes);
+                // 完全使用所有空间--复制前后图片大小一致
+                fos.write(bytes,0,n);
             }
 
             fis.close();
@@ -29,7 +31,6 @@ public class CopyPic {
         } catch (IOException e){
             e.printStackTrace();
         }
-
 
     }
 }
