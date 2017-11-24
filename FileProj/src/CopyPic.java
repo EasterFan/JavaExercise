@@ -31,6 +31,5 @@ public class CopyPic {
         } catch (IOException e){
             e.printStackTrace();
         }
-
     }
 }

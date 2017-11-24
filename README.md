@@ -8,6 +8,7 @@ Web组长：樊东方
 2017年11月23日 [IO流--File类逐个读取字节](FileProj/src/InputStreamTest.java)  
 2017年11月23日 [IO流--File类字节数组存储输入流字节](FileProj/src/InputStreamByteTest.java)  
 2017年11月23日 [IO流--字节输出流不适合字符操作-编码问题](FileProj/src/OutputStreamTest.java)  
+2017年11月23日 [IO流--拷贝一张图](FileProj/src/CopyPic.java)  
 
 
 2017年11月19日 [创建线程--继承Thread类](ThreadProj/src/ThreadTest.java)  
