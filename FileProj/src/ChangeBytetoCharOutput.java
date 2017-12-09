@@ -9,7 +9,7 @@ public class ChangeBytetoCharOutput {
     public static void main(String[] args) {
 
         try {
-            // 字节输入输出流
+            // 字节输入输出流====模拟从网络中传来的文件
             FileInputStream fis = new FileInputStream("changeBytetoChar.md");
             FileOutputStream fos = new FileOutputStream("changeBytetoCharOutput.md");
 
@@ -17,16 +17,22 @@ public class ChangeBytetoCharOutput {
             InputStreamReader isr = new InputStreamReader(fis,"GBK");
             OutputStreamWriter osw = new OutputStreamWriter(fos,"GBK");
 
+            // 加入缓存
+            BufferedReader br = new BufferedReader(isr);
+            BufferedWriter bw = new BufferedWriter(osw);
+
             // 暂时存储字符
             int n = 0;
             char[] cbuf = new char[80];
 
-            while ((n = isr.read(cbuf)) != -1){
-                osw.write(cbuf);
-                osw.flush();
+            while ((n = br.read(cbuf)) != -1){
+                bw.write(cbuf);
+                bw.flush();
             }
 
 
+            br.close();
+            bw.close();
             isr.close();
             osw.close();
             fis.close();
