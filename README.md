@@ -10,7 +10,9 @@ Web组长：樊东方
 2017年11月23日 [IO流--字节输出流不适合字符操作-编码问题](FileProj/src/OutputStreamTest.java)  
 2017年11月23日 [IO流--拷贝一张图](FileProj/src/CopyPic.java)  
 2017年12月08日 [IO流--缓冲输出流](FileProj/src/BufferedOutputStream.java)  
-
+2017年12月09日 [字节字符流转换--将字节输入流读成字符](FileProj/src/ChangeByteToChar.java)  
+2017年12月09日 [字节字符流转换--用字符读写实现复制粘贴文本](FileProj/src/ChangeBytetoCharOutput.java)  
+2017年12月09日 [IO流--对象序列化](FileProj/src/objectserial/GoodsSerialTest.java)    
 
 2017年11月19日 [创建线程--继承Thread类](ThreadProj/src/ThreadTest.java)  
 2017年11月19日 [创建线程--实现Runnable接口](ThreadProj/src/RunnableTest.java)  
