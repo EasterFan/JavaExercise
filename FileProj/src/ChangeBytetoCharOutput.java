@@ -14,8 +14,8 @@ public class ChangeBytetoCharOutput {
             FileOutputStream fos = new FileOutputStream("changeBytetoCharOutput.md");
 
             // 流转换
-            InputStreamReader isr = new InputStreamReader(fis);
-            OutputStreamWriter osw = new OutputStreamWriter(fos);
+            InputStreamReader isr = new InputStreamReader(fis,"GBK");
+            OutputStreamWriter osw = new OutputStreamWriter(fos,"GBK");
 
             // 暂时存储字符
             int n = 0;
