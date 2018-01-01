@@ -1,8 +1,7 @@
 # JavaWebHome
 
-亲爱的学弟学妹们，这是千里Web组培训使用的案例，包括Java基础，面向对象。合抱之木，生于毫末，九层之台，起于垒土，冰冻三尺，非一日之寒，大海之阔，非一流之归，我在初学时遇到和你们现在一样的困惑，希望你们能够如切如磋，如琢如磨，慢慢体会，这些案例只是JavaWeb所必须的入门知识和基础知识，JavaWeb知识复杂而丰富，我会和你们一起不断的学习和积累。
+WEB组案例
 
-Web组长：樊东方
 
 2017年11月23日 [IO流--File类创建文件](FileProj/src/FileFunction.java)  
 2017年11月23日 [IO流--File类逐个读取字节](FileProj/src/InputStreamTest.java)  
