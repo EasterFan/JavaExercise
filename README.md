@@ -68,3 +68,44 @@ WEB组案例
 2017年11月21日 [单例模式--空间换时间](singletonProj/src/com/easter/singleton/SingletonHunger.java)  
 
 2017年11月21日 [model类的写法--学生-专业案例](studentMangement/src/com/easter/test/schooltest.java)  
+
+
+基础语法  
+
+2018年01月07日 [可变参数列表方法重载](basic/src/function/ArgsPri.java)  
+2018年01月07日 [可变参数列表](basic/src/function/ArgsChange.java)  
+2018年01月07日 [数组--参数传递](basic/src/function/ArrChangeArge.java)  
+2018年01月07日 [基本数据类型--参数传递](basic/src/function/ChangeArge.java)  
+2018年01月07日 [方法重载](basic/src/function/FunctionDemo.java)  
+
+2018年01月07日 [数组-冒泡排序](basic/src/array/Bubble.java)  
+2018年01月07日 [数组--增强型for循环](basic/src/array/ArrayOption.java)  
+
+2018年01月07日 [循环嵌套--阶乘](basic/src/cycle/Jiecheng.java)  
+2018年01月07日 [循环嵌套--打印星星](basic/src/cycle/Star.java)  
+2018年01月07日 [continue跳出当前循环](basic/src/cycle/BreakAndContinue.java)  
+2018年01月07日 [dowhile猜随机整数](basic/src/cycle/DoWhileGuess.java)  
+2018年01月07日 [while死循环实现不断从键盘接收数字](basic/src/cycle/ForDemo.java)  
+2018年01月07日 [while循环--打印26个字母](basic/src/cycle/FunctionDemo.java)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
