@@ -1,7 +1,12 @@
 # JavaWebHome
 
-WEB组案例
+JDBC  
+2018年02月07日 [jdbc-标准版](jdbcddmo/src/main/java/mysqljdbc/StandardStart.java)  
+2018年02月07日 [jdbc-一个完美的 DbUtils](jdbcddmo/src/main/java/mysqljdbc/DbUtils.java)  
+2018年02月07日 [jdbc-原始版](jdbcddmo/src/main/java/mysqljdbc/QuickStart.java)  
 
+
+异常-线程-流处理  
 
 2017年11月23日 [IO流--File类创建文件](FileProj/src/FileFunction.java)  
 2017年11月23日 [IO流--File类逐个读取字节](FileProj/src/InputStreamTest.java)  
@@ -87,25 +92,3 @@ WEB组案例
 2018年01月07日 [dowhile猜随机整数](basic/src/cycle/DoWhileGuess.java)  
 2018年01月07日 [while死循环实现不断从键盘接收数字](basic/src/cycle/ForDemo.java)  
 2018年01月07日 [while循环--打印26个字母](basic/src/cycle/FunctionDemo.java)  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
