@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>servletddmo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- 1. 定义 Servlet 的类型， 并定义别名-->
+  
+  <servlet>
+   <servlet-name>time</servlet-name>
+   <servlet-class>servletbasic.TimeServlet</servlet-class>
+  </servlet>
+  
+  <!-- 2. 通过别名引用 Servlet， 并给它取一个访问路径(以/开头) -->
+  
+  <servlet-mapping>
+    <servlet-name>time</servlet-name>
+    <url-pattern>/ts</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>https</servlet-name>
+   <servlet-class>servletbasic.HttpsServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>https</servlet-name>
+    <url-pattern>/https</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+   <servlet-name>reg</servlet-name>
+   <servlet-class>web.RegServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>reg</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+
+  
+</web-app>

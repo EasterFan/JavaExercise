@@ -1,5 +1,13 @@
 # JavaWebHome
 
+Servlet
+
+2018年02月10日 [Servlet怎样接收请求中的参数 -- 一个注册功能](servletddmo/src/main/java/web/RegServlet.java)  
+2018年02月10日 [http协议 - 获取客户端/服务端信息](servletddmo/src/main/java/servletbasic/HttpsServlet.java)  
+2018年02月10日 [Servlet-获取服务端时间](servletddmo/src/main/java/servletbasic/TimeServlet.java)  
+
+
+
 JDBC  
 2018年02月07日 [jdbc-标准版](jdbcddmo/src/main/java/mysqljdbc/StandardStart.java)  
 2018年02月07日 [jdbc-一个完美的 DbUtils](jdbcddmo/src/main/java/mysqljdbc/DbUtils.java)  
