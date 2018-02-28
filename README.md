@@ -80,6 +80,7 @@ JDBC
 2017年11月21日 [单例模式--时间换空间](singletonProj/src/com/easter/singleton/SingletonLazy.java)  
 2017年11月21日 [单例模式--空间换时间](singletonProj/src/com/easter/singleton/SingletonHunger.java)  
 
+2018年02月28日 [对象 -- 对象实例化过程](basic/src/array/Person.java)  
 2017年11月21日 [model类的写法--学生-专业案例](studentMangement/src/com/easter/test/schooltest.java)  
 
 
