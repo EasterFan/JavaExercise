@@ -75,6 +75,8 @@ JDBC
 2017年11月21日 [多态--主人根据喂养的对象决定饭后活动](PolyProj/src/com/easter/test/MasterTest.java)  
 2017年11月21日 [多态--上下转型动物园](PolyProj/src/com/easter/test/PolyTest.java)     
 
+2018年03月01日 [模板方法设计模式 - 计算程序运行时间](objectInitInInherihance/src/com/easter/Abstract/Template.java)  
+2018年03月01日 [继承-抽象方法-员工经理类](objectInitInInherihance/src/com/easter/Abstract/Empolee.java)  
 2017年11月21日 [继承--继承中子类对象实例化过程](objectInitInInherihance/src/com/easter/test/Catest.java)  
 
 2017年11月21日 [单例模式--时间换空间](singletonProj/src/com/easter/singleton/SingletonLazy.java)  
