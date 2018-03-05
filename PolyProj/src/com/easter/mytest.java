@@ -16,7 +16,10 @@ class MyDemo{
     }
 
     public boolean equals(Object obj){
+
         // obj 向下转型为 demo,因为 obj 中没有num属性, MyDemo中有 num
+        if(!(obj instanceof MyDemo))
+            return false;
         MyDemo demo = (MyDemo) obj;
         return this.num == demo.num;
     }
