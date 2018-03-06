@@ -62,10 +62,12 @@ JDBC
 
 面向对象
 
-2017年11月21日 [内部类--匿名内部类](innerClass/src/com/easter/test/AnonymousTest2.java)  
-2017年11月21日 [内部类--方法内部类](innerClass/src/com/easter/test/FunctionTest.java)  
-2017年11月21日 [内部类--静态内部类](innerClass/src/com/easter/test/StaticTest.java)  
-2017年11月21日 [内部类--成员内部类](innerClass/src/com/easter/test/MemberTest.java)  
+2017年11月21日 [内部类--匿名内部类 -- 继承](innerClass/src/com/easter/anonymous/Person.java)  
+2017年11月21日 [内部类--匿名内部类 -- 接口](innerClass/src/com/easter/anonymous/InnerClassTest.java)  
+2017年11月21日 [内部类--方法内部类](innerClass/src/com/easter/function/Person.java)  
+2017年11月21日 [内部类--静态内部类](innerClass/src/com/easter/staticinner/Person.java
+)  
+2017年11月21日 [内部类--成员内部类](innerClass/src/com/easter/member/Person.java)  
 
 2017年11月21日 [接口--接口继承](interfaceProj/src/com/easter/test/_04Inherance.java)  
 2017年11月21日 [接口--多接口重名问题](interfaceProj/src/com/easter/test/_03Duplication.java)  

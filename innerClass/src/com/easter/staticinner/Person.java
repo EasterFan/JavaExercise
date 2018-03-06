@@ -29,3 +29,12 @@ public class Person {
         }
     }
 }
+
+class StaticTest {
+    public static void main(String args[]){
+        // 获取静态内部类实例对象
+        Person.Heart myheart = new Person.Heart();
+        myheart.beat();
+    }
+}
+
