@@ -57,8 +57,9 @@ JDBC
 2017年11月18日 [Throw抛出异常对象自己抛出，自己处理--网吧年龄限制](ExceptionProj/src/_03_Throw1.java)  
 2017年11月18日 [Throw抛出异常对象自己抛出，Throws声明，调用者处理--网吧年龄限制](ExceptionProj/src/_04_Throw2.java)  
 2017年11月18日 [自定义异常类--网吧年龄限制](ExceptionProj/src/_05_CustomThrow.java)  
+2018年03月07日 [自定义异常类--被除数不为负数](ExceptionProj/src/_05_CustomThrowFushu.java)  
 2017年11月18日 [异常链](ExceptionProj/src/_06_ThroableLine.java)  
-2017年11月18日 [异常中的子类](ExceptionProj/src/_07_ThrowsInherianceSon.java)  
+2017年11月18日 [异常中的子类](ExceptionProj/src/_07_ThrowsInherianceFather.java)  
 
 面向对象
 

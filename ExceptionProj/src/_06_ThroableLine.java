@@ -10,14 +10,14 @@ public class _06_ThroableLine {
         }
     }
 
-    public static void test1() throws _05_NetBarAgeException {
-        throw new _05_NetBarAgeException();
+    public static void test1() throws NetBarAgeException {
+        throw new NetBarAgeException();
     }
 
     public static void test2() throws Exception {
         try {
             test1();
-        } catch (_05_NetBarAgeException e) {
+        } catch (NetBarAgeException e) {
             throw new Exception("我是test2中抛出的异常",e);
         }
     }
