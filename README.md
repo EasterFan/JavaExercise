@@ -31,6 +31,7 @@ JDBC
 2017年11月19日 [Runnable--多线程共享同一个对象的成员变量](ThreadProj/src/MultiThreadShareTest.java)  
 2018年03月10日 [多线程 -- 多个售票窗口 - 多对象共享一个类变量](ThreadProj/src/TicketSale.java)  
 2018年03月10日 [线程锁 - 售票程序 -- 同步代码块 + 同步函数使用同一个锁](ThreadProj/src/SynchronizedFunction.java)  
+2018年03月10日 [线程锁 - 售票程序 -- 静态同步函数的锁是 Class 对象](ThreadProj/src/StaticSynchronizedFunction.java)  
 2017年11月19日 [阻塞线程--sleep()](ThreadProj/src/SleepThread.java)  
 2017年11月19日 [阻塞线程--join()](ThreadProj/src/JoinThread.java)  
 2017年11月19日 [改变线程优先级](ThreadProj/src/PriorityThread.java)  
