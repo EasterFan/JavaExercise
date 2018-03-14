@@ -10,6 +10,7 @@ class TicketWindow implements Runnable{
     public void run() {
         if(flag){
             while (true) {
+                // totalTicket 是静态成员，要使用类文件做锁
                 synchronized (TicketWindow.class) {
                         if (totalTicket > 0) {
                             System.out.println("block..." + Thread.currentThread().getName() + "在售票" + totalTicket--);
@@ -25,9 +26,9 @@ class TicketWindow implements Runnable{
                 if(totalTicket == 0) break;
             }
         }
-
     }
 
+    // 锁是当前对象this
     private static synchronized void sale(){
         if(totalTicket>0) System.out.println("sale..." + Thread.currentThread().getName()+"在售票"+totalTicket--);
     }
