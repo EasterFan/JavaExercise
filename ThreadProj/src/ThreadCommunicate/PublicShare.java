@@ -5,7 +5,7 @@ package ThreadCommunicate;
  */
 public class PublicShare {
     private int n;
-    Boolean flag = false;
+    private Boolean flag = false;
 
     public synchronized int getN() {
         // 如果没有，get方法等待

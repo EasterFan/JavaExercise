@@ -4,8 +4,9 @@ package ThreadCommunicate;
  * 消费者类
  */
 public class Customer implements Runnable{
-    PublicShare publicShare;
-    public Customer(PublicShare publicShare){
+    private PublicShare publicShare;
+
+    Customer(PublicShare publicShare){
         this.publicShare = publicShare;
     }
 

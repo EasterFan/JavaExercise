@@ -40,6 +40,7 @@ JDBC
 2017年11月19日 [改变线程优先级](ThreadProj/src/PriorityThread.java)  
 2017年11月19日 [线程的互斥--银行存取款](ThreadProj/src/_BankTest.java)  
 2017年11月21日 [线程通信--生产与消费依次执行](ThreadProj/src/ThreadCommunicate/PublicShareTest.java)  
+2018年03月17日 [线程通信（存在死锁问题）](ThreadProj/src/ThreadCommunicate/PublicSareTest2.java)  
 
 
 2017年11月18日 [Map存储自定义类--商品类](MapProj/src/MapGoodsTest.java)  
