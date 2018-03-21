@@ -42,6 +42,8 @@ JDBC
 2018年03月20日 [线程通信 - 一个生产者和一个消费者](ThreadProj/src/ThreadCommunicate1/ThreadOneCustom.java)  
 2018年03月20日 [线程通信 - 多个生产者和多个消费者](ThreadProj/src/ThreadCommunicate2/ThreadManyCustom.java)  
 2018年03月21日 [线程通信-- lock + Collecton 代替 synchroniised + Object 的写法](ThreadProj/src/ThreadCommunicate3/ThreadWithLockWithoutSynchronized.java)  
+2018年03月21日 [线程通信-- lock + Collecton 代替 synchroniised + Object 的写法（实现唤醒对方线程）](ThreadProj/src/ThreadCommunicate4/ThreadNotifyOther.java)  
+
 
 
 2017年11月18日 [Map存储自定义类--商品类](MapProj/src/MapGoodsTest.java)  

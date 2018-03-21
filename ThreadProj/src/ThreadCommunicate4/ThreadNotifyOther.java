@@ -1,9 +1,9 @@
-package ThreadCommunicate3;
+package ThreadCommunicate4;
+
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-
 
 class People{
     private String name;
@@ -12,9 +12,10 @@ class People{
 
     // 新建一个锁
     private Lock lock = new ReentrantLock();
-
     // wait，notify等方法都封装在 Condition 对象中，要通过 Lock 获取 Condition 对象
-    private Condition condition = lock.newCondition();
+    // 新建两个锁
+    private Condition condition_producer = lock.newCondition();
+    private Condition condition_customer = lock.newCondition();
 
     // 去掉 synchronized
     public void peopleIn(String name, String sex) throws InterruptedException {
@@ -22,17 +23,17 @@ class People{
         lock.lock();
 
         try{
-            // 如果 Room 中已有人， 生产者等待
+            // 如果 Room 中已有人， 停止录入
             while (flag) {
-                condition.await();
+                condition_producer.await();
             }
             this.name = name;
             this.sex = sex;
             System.out.println(Thread.currentThread().getName() + "....PeopleIn:"+name + "......." + sex);
             flag = true;
 
-            // 唤醒消费者
-            condition.signal();
+            // 唤醒线程
+            condition_customer.signal();
         }finally {
             lock.unlock();
         }
@@ -43,13 +44,13 @@ class People{
         lock.lock();
         try{
             while (!flag){
-                condition.await();
+                condition_customer.await();
             }
             System.out.println(Thread.currentThread().getName() + "PeopleOut:"+name + "......." + sex);
             flag = false;
 
-            // 唤醒所有生产者线程
-            condition.signal();
+            // 唤醒所有线程
+            condition_producer.signal();
 
         }finally {
             lock.unlock();
@@ -110,13 +111,12 @@ class RoomOut implements Runnable{
 
 
 /**
- * JDK 1.5 多线程加锁升级解决方案
  * lock + condition.signalAll() 代替 synchroniised + Object.notifyAll() 的写法
  *
- * 唤醒的仍然是所有线程
- * lock + while + signalAll()
+ * 采用新特性，只唤醒对方线程
+ * lock + while + signal()
  */
-public class ThreadWithLockWithoutSynchronized {
+public class ThreadNotifyOther {
     public static void main(String[] args) {
         // 1. 新建共享资源 -- 锁
         People people = new People();
