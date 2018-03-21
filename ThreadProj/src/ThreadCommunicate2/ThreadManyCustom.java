@@ -12,7 +12,7 @@ class People{
     // 录入人员信息 - 存在线程安全(只录入姓名，性别未输入，被打断)
     public synchronized void peopleIn(String name, String sex){
         // 如果 Room 中已有人， 停止录入
-        if (flag) {
+        while (flag) {
             try {this.wait();} catch (InterruptedException e) {e.printStackTrace();} // 很有可能线程在这一步阻塞了
         }
         this.name = name;
@@ -20,18 +20,18 @@ class People{
         System.out.println(Thread.currentThread().getName() + "....PeopleIn:"+name + "......." + sex);
         flag = true;
         // 唤醒线程
-        this.notify();
+        this.notifyAll();
     }
 
     // 输出人员信息 -- 与 set 方法线程同步
     public synchronized void peopleOut(){
-        if (!flag){
+        while (!flag){
             try {this.wait();} catch (InterruptedException e) {e.printStackTrace();}
         }
         System.out.println(Thread.currentThread().getName() + "PeopleOut:"+name + "......." + sex);
         flag = false;
 
-        this.notify();
+        this.notifyAll();
     }
 }
 

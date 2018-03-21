@@ -58,7 +58,6 @@ class RoomIn implements Runnable{
             }else {
                 people.RoomIn("杰瑞","女女女");
             }
-
         }
     }
 }
