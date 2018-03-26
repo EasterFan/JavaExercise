@@ -57,7 +57,8 @@ JDBC
 2017年11月18日 [List存储自定义类--公告留言板](ListProj/src/NoticeTest.java)  
 2017年11月18日 [List存储String类--字符串增删查改](ListProj/src/ListDemo.java)  
 
-2017年11月18日 [字符串与字节数组相互转化](StringProj/src/StringandBytes.java)  
+2018年03月26日 [字符串 <---> 字符数组](StringProj/src/StringandChars.java)  
+2017年11月18日 [字符串 <---> 字节数组](StringProj/src/StringandBytes.java)  
 2017年11月18日 [字符串的基本操作--子串](StringProj/src/StringFunctions.java)  
 
 
