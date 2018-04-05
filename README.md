@@ -58,8 +58,11 @@ JDBC
 2017年11月18日 [List存储String类--字符串增删查改](ListProj/src/ListDemo.java)  
 
 2018年03月26日 [字符串 <---> 字符数组](StringProj/src/StringandChars.java)  
-2017年11月18日 [字符串 <---> 字节数组](StringProj/src/StringandBytes.java)  
+2017年03月26日 [字符串 <---> 字节数组](StringProj/src/StringandBytes.java)  
 2017年11月18日 [字符串的基本操作--子串](StringProj/src/StringFunctions.java)  
+2018年04月06日 [字符串的基本操作--字符串反转](StringProj/src/exercise/ReverseString.java)  
+2018年04月06日 [字符串的基本操作--获取一个子串在另一个子串中出现的次数](StringProj/src/exercise/CountNum.java)  
+2018年04月06日 [字符串的基本操作--获取两个字符串中最大相同子串](StringProj/src/exercise/GetMaxSameString.java)  
 
 
 2017年11月18日 [包装类对象间的比较](WrapProj/src/ObjectPool_Wrap.java)  
