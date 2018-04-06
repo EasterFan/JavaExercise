@@ -55,7 +55,9 @@ JDBC
 2017年11月18日 [Set存储自定义类--宠物类](SetProj/src/Pet_set_Test.java)  
 2017年11月18日 [set存储String类--字符串增删查改](SetProj/src/SetDemo.java)  
 2017年11月18日 [List存储自定义类--公告留言板](ListProj/src/NoticeTest.java)  
-2017年11月18日 [List存储String类--字符串增删查改](ListProj/src/ListDemo.java)  
+2018年04月06日 [List接口特有迭代器 -- ListIterator](ListProj/src/list/ListIteratorTest.java)  
+2017年11月18日 [List接口的特性方法--增删查改](ListProj/src/list/ListDemo.java)  
+2017年11月18日 [Collection接口的共性方法--增删查改](ListProj/src/CollectionCommonFunction.java)  
 
 2018年03月26日 [字符串 <---> 字符数组](StringProj/src/StringandChars.java)  
 2017年03月26日 [字符串 <---> 字节数组](StringProj/src/StringandBytes.java)  
