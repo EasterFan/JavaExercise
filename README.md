@@ -54,7 +54,7 @@ JDBC
 2017年11月18日 [Map存储String类--zoo字典](MapProj/src/MapZoo.java)  
 2017年11月18日 [Set存储自定义类--宠物类](SetProj/src/Pet_set_Test.java)  
 2017年11月18日 [set存储String类--字符串增删查改](SetProj/src/SetDemo.java)  
-2017年11月18日 [List存储自定义类--公告留言板](ListProj/src/NoticeTest.java)  
+2017年11月18日 [ArrayList存储自定义类--公告留言板](ListProj/src/arraylist/NoticeTest.java)  
 2018年04月07日 [ArrayList去重](ListProj/src/arraylist/ArrayListSingle.java)  
 2018年04月07日 [LinkedList -- 模拟堆栈或队列](ListProj/src/linkedlist/LinkedListTest.java)  
 2018年04月07日 [Vector -- 枚举遍历](ListProj/src/vector/VectorDemo.java)  

@@ -1,3 +1,5 @@
+package arraylist;
+
 import java.util.Date;
 
 /**
@@ -60,5 +62,19 @@ public class Notice {
     @Override
     public String toString() {
         return "[公告编号："+id+",标题："+title+"，作者："+creator+"，创建时间"+creatTime+"]";
+    }
+
+    /**
+     * 比较两个对象是否相同 -- 只比较 id 和 title
+     * 重写equals
+     * @param obj
+     * @return
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if(!(obj instanceof Notice)) return false;
+        Notice notice = (Notice)obj;
+
+        return this.id == notice.id && this.title.equals(notice.title);
     }
 }

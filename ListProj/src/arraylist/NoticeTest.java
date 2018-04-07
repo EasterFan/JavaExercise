@@ -1,5 +1,8 @@
+package arraylist;
+
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Iterator;
 
 /**
  * Created by easter on 17-11-13.
@@ -10,6 +13,7 @@ public class NoticeTest {
     public static void main(String args[]){
         // 生成三条公告
         Notice n1 = new Notice(1,"早上来了","早上", new Date());
+        Notice n8 = new Notice(1,"早上来了","早上", new Date());
         Notice n2 = new Notice(2,"中午来了","中午", new Date());
         Notice n3 = new Notice(3,"晚上来了","晚上", new Date());
 
@@ -18,6 +22,7 @@ public class NoticeTest {
         notice_list.add(n1);
         notice_list.add(n2);
         notice_list.add(n3);
+        notice_list.add(n8);
 
         System.out.println(notice_list);
 
@@ -54,5 +59,28 @@ public class NoticeTest {
         for(int i = 0;i<notice_list.size();i++){
             System.out.println(i+1+(notice_list.get(i)).getTitle());
         }
+
+        // 去重 -- 要在实体类中重写 equals 方法, 否则不能去重
+        notice_list = quChong(notice_list);
+        for(Iterator it = notice_list.iterator();it.hasNext();){
+            System.out.println(it.next());
+        }
+
+    }
+
+    /**
+     * 普通去重
+     * @param arrayList
+     * @return
+     */
+    public static ArrayList quChong(ArrayList arrayList){
+        ArrayList arr = new ArrayList();
+        for(Iterator it = arrayList.iterator(); it.hasNext();){
+            Object obj = it.next();
+            if(!arr.contains(obj)){
+                arr.add(obj);
+            }
+        }
+        return arr;
     }
 }
