@@ -1,3 +1,5 @@
+package hashset;
+
 /**
  * 猫类
  */
@@ -45,6 +47,7 @@ public class Pet_set {
         return "[姓名："+name+",age："+age+"，品种："+species+"]";
     }
 
+    // 根据姓名, 年龄, 种类得出哈希值
     @Override
     public int hashCode() {
         final int prime = 31;
