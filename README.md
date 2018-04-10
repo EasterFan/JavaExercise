@@ -52,6 +52,7 @@ JDBC
 
 2017年11月18日 [Map存储自定义类--商品类](MapProj/src/MapGoodsTest.java)  
 2017年11月18日 [Map存储String类--zoo字典](MapProj/src/MapZoo.java)  
+2018年04月10日 [泛型的使用 -- 省略上下转型](SetProj/src/generic/StringTreeSetWithoutClassCast.java)  
 2018年04月10日 [TreeSet存储字符串 -- 根据字符串长度排序-集合比较性](SetProj/src/treeset/StringTreeSetDemo.java)  
 2018年04月10日 [TreeSet存储学生类 -- 实现Comparator接口集合具备比较性](SetProj/src/treeset/TreeSetOrderByCollection.java)  
 2018年04月08日 [TreeSet存储学生类 -- 实现Comparable接口对象具备比较性](SetProj/src/treeset/treeSetPaiXu.java)  
