@@ -15,7 +15,9 @@ public class GenericClass {
 
         // 现在的泛型写法  -- 编译时报错
         GenericTool<Worker> workerGenericTool = new GenericTool<Worker>();
-        workerGenericTool.setAnimal(new Student());
+
+        // 如果插入错误类,编译时报错
+//        workerGenericTool.setAnimal(new Student());
         workerGenericTool.setAnimal(new Worker());
     }
 }
