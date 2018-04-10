@@ -52,7 +52,8 @@ JDBC
 
 2017年11月18日 [Map存储自定义类--商品类](MapProj/src/MapGoodsTest.java)  
 2017年11月18日 [Map存储String类--zoo字典](MapProj/src/MapZoo.java)  
-2018年04月08日 [TreeSet存储学生类 -- 实现Comparable接口具备比较性](SetProj/src/treeset/treeSetPaiXu.java)  
+2018年04月10日 [TreeSet存储学生类 -- 实现Comparator接口集合具备比较性](SetProj/src/treeset/TreeSetOrderByCollection.java)  
+2018年04月08日 [TreeSet存储学生类 -- 实现Comparable接口对象具备比较性](SetProj/src/treeset/treeSetPaiXu.java)  
 2017年11月18日 [HashSet存储自定义类--宠物类 -- 重写hashcode和equals](SetProj/src/hashset/Pet_set.java)  
 2017年11月18日 [ArrayList存储自定义类--公告留言板](ListProj/src/arraylist/NoticeTest.java)  
 2018年04月07日 [ArrayList去重](ListProj/src/arraylist/ArrayListSingle.java)  
