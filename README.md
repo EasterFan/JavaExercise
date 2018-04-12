@@ -52,6 +52,7 @@ JDBC
 
 2017年11月18日 [Map存储自定义类--商品类](MapProj/src/MapGoodsTest.java)  
 2017年11月18日 [Map存储String类--zoo字典](MapProj/src/MapZoo.java)  
+2018年04月12日 [泛型 -- 泛型接口](SetProj/src/generic/GenericImpl.java)  
 2018年04月12日 [泛型 -- 泛型方法](SetProj/src/generic/GenericFunc.java)  
 2018年04月10日 [泛型类 -- 工具类编译时报错](SetProj/src/generic/GenericClass.java)  
 2018年04月10日 [泛型的使用 -- 省略上下转型](SetProj/src/generic/StringTreeSetWithoutClassCast.java)  
