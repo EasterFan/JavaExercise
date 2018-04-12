@@ -25,8 +25,9 @@ public class GenericUpper {
 
     }
 
+    // 遍历Person 11 和 Person11 的所有子类
     public static void printColl(ArrayList< ? extends Person11> per){
-        for(Iterator<? extends Person11> it = per.iterator();it.hasNext();){
+        for(Iterator<? extends Person11> it = per.iterator(); it.hasNext();){
             System.out.println(it.next().getName());
         }
     }
@@ -35,7 +36,7 @@ public class GenericUpper {
 /**
  * 子类
  */
-class Student11 extends Person11{
+class Student11 extends Person11 {
 
     Student11(String name){
         super(name);

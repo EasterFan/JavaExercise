@@ -52,6 +52,7 @@ JDBC
 
 2017年11月18日 [Map存储自定义类--商品类](MapProj/src/MapGoodsTest.java)  
 2017年11月18日 [Map存储String类--zoo字典](MapProj/src/MapZoo.java)  
+2018年04月12日 [泛型限定 -- 下限](SetProj/src/generic/GenericLower.java)  
 2018年04月12日 [泛型限定 -- 上限](SetProj/src/generic/GenericUpper.java)  
 2018年04月12日 [泛型限定 -- 通配符](SetProj/src/generic/GenericFanwei.java)  
 2018年04月12日 [泛型 -- 泛型接口](SetProj/src/generic/GenericImpl.java)  
