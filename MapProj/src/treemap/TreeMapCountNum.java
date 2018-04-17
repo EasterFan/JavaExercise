@@ -19,7 +19,7 @@ public class TreeMapCountNum {
 
         String string = "abcdsacxdcxsdxaabc";
 
-        printMap(getCountedMap(changeStringToChar(string)));
+        System.out.println(getPrint(getCountedMap(changeStringToChar(string))));
     }
 
     // 1. 字符串转字符数组
@@ -31,27 +31,36 @@ public class TreeMapCountNum {
     static TreeMap<Character,Integer> getCountedMap(char arr[]){
         TreeMap<Character,Integer> tm = new TreeMap<>();
 
+        int count;
+
         for(int i = 0;i<arr.length;i++){
+            // 过滤标点符号
+            if(!(arr[i] >= 'a' && arr[i] <= 'z' ||arr[i] >= 'A' && arr[i] <= 'Z' )) continue;
+
             Integer value = tm.get(arr[i]);
 
             if(tm.containsKey(arr[i])){
-                value = value +1 ;
-                tm.put(arr[i],value);
+                count = value +1 ;
             }else {
-                tm.put(arr[i],1);
+                count = 1 ;
             }
+            tm.put(arr[i],count);
         }
         return tm;
     }
 
     // 3. Treemap 转换成字符串
-    static void printMap(TreeMap<Character,Integer> treeMap){
+    static String getPrint(TreeMap<Character,Integer> treeMap){
+        StringBuilder sb = new StringBuilder();
         Set<Character> ts = treeMap.keySet();
+
         for(Iterator<Character> it = ts.iterator();it.hasNext();){
             Character key = it.next();
             Integer value = treeMap.get(key);
-            System.out.print(key + "(" + value +")");
+            // 将键值对存到缓存区
+            sb.append(key + "(" + value +")");
         }
+        return sb.toString();
     }
 }
 
