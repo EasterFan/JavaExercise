@@ -49,6 +49,11 @@ JDBC
 2018年03月21日 [线程通信-- lock + Collecton 代替 synchroniised + Object 的写法（实现唤醒对方线程）](ThreadProj/src/ThreadCommunicate4/ThreadNotifyOther.java)  
 2018年03月25日 [匿名内部类 + 多线程的写法](ThreadProj/src/ThreadSummary.java)  
 
+
+2018年04月21日 [Colections工具类 -- Sync同步集合](MapProj/src/utilCollections/SyncCollections.java)  
+2018年04月21日 [Colections工具类 -- ReverseOrder 比较器反转](MapProj/src/utilCollections/ReverseOrder.java)  
+2018年04月21日 [Colections工具类 -- 二分查找传入比较器](MapProj/src/utilCollections/BinarySearchCollection.java)  
+2018年04月21日 [Collections 工具类--sort两种用法](MapProj/src/utilCollections/SortCollection.java)  
 2018年04月17日 [Map 扩展 - Map 存 Map](MapProj/src/map/MapInMap.java)  
 2018年04月17日 [Map 扩展 - Map 存 List](MapProj/src/map/ListInMap.java)  
 2018年04月16日 [TreeMap - 数字母数](MapProj/src/treemap/TreeMapCountNum.java)  
