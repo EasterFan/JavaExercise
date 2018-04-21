@@ -50,6 +50,9 @@ JDBC
 2018年03月25日 [匿名内部类 + 多线程的写法](ThreadProj/src/ThreadSummary.java)  
 
 
+2018年04月21日 [Arrays工具类 -- 数组 <-- 集合](MapProj/src/utilArrays/CollectionToArray.java)  
+2018年04月21日 [Arrays工具类 -- 数组 --> 集合](MapProj/src/utilArrays/ArrayToList.java)  
+2018年04月21日 [Arrays工具类 -- 数组 --> 字符串](MapProj/src/utilArrays/ArrayToString.java)  
 2018年04月21日 [Colections工具类 -- Sync同步集合](MapProj/src/utilCollections/SyncCollections.java)  
 2018年04月21日 [Colections工具类 -- ReverseOrder 比较器反转](MapProj/src/utilCollections/ReverseOrder.java)  
 2018年04月21日 [Colections工具类 -- 二分查找传入比较器](MapProj/src/utilCollections/BinarySearchCollection.java)  
