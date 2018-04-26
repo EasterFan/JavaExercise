@@ -95,6 +95,13 @@ JDBC
 2017年11月18日 [基本数据类型和字符串之间的转换](WrapProj/src/StringAndBasic.java)  
 2017年11月18日 [包装类和基本数据类型相互转化](WrapProj/src/BasicAndClass.java)  
 
+2018年04月26日 [其它类 - System获取当前运行环境](CommonClass/src/systemproj/SystemProperty.java)  
+2018年04月26日 [其他类 - Runtime获取进程杀死进程](CommonClass/src/runtimeproj/RuntimeTest.java)  
+2018年04月26日 [其他类 - SimpleDateFormat 自定义时间格式](CommonClass/src/date/DateTest.java)  
+2018年04月26日 [其它类 - Calendar查表法单独获得时间元素](CommonClass/src/calendar/CalendarTest.java)  
+2018年04月26日 [其它类 - Calendar时间元素增量](CommonClass/src/calendar/calendarAdd.java)  
+2018年04月26日 [其他类 - Random随机数](CommonClass/src/math/MathRandom.java)  
+
 
 2017年11月18日 [try-catch-finally--两数相除](ExceptionProj/src/_01_trycatch1.java)  
 2017年11月18日 [Throws声明异常类型，调用者处理--两数相除](ExceptionProj/src/_02_Throws.java)  
